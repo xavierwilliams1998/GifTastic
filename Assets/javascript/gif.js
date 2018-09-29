@@ -21,7 +21,7 @@ $(".button-view").empty();
 
 
 
-var x =document.getElementById("a").value;
+
 $("#add-basketballArr").on("click", function (event) {
     event.preventDefault();
     var basketballArr = $("#basketballArr-input").val().toLowerCase().trim();
